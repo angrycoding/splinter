@@ -1,0 +1,9 @@
+<resources>
+    <string name="application_name">Car Launcher</string>
+    <string name="sensor_settings_label">Настройка типа индикатора</string>
+
+    <string name="service_label">Сервис панели индикаторов</string>
+    <string name="service_description">Сервис панели индикаторов - расширенное описание</string>
+    <string name="launcher_label">Домашний экран Car Launcher</string>
+    <string name="preferences_label">Настройки приложения</string>
+</resources>
