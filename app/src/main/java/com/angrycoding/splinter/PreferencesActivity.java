@@ -1,9 +1,9 @@
-package com.angrycoding.carlauncher;
+package com.angrycoding.splinter;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.angrycoding.carlauncher.webview.WebView;
+import com.angrycoding.splinter.webview.WebView;
 
 public class PreferencesActivity extends Activity {
 

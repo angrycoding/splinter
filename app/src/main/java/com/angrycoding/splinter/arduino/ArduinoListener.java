@@ -1,4 +1,4 @@
-package com.angrycoding.carlauncher.arduino;
+package com.angrycoding.splinter.arduino;
 
 public interface ArduinoListener {
 

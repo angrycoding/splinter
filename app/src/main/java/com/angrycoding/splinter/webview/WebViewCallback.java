@@ -1,4 +1,4 @@
-package com.angrycoding.carlauncher.webview;
+package com.angrycoding.splinter.webview;
 
 public interface WebViewCallback {
 

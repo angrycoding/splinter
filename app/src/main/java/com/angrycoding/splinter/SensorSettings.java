@@ -1,12 +1,11 @@
-package com.angrycoding.carlauncher;
+package com.angrycoding.splinter;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 
-import com.angrycoding.carlauncher.webview.WebView;
-import com.angrycoding.carlauncher.webview.WebViewCallback;
+import com.angrycoding.splinter.webview.WebView;
 
 public class SensorSettings extends Activity {
 

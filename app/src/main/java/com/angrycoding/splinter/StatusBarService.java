@@ -1,4 +1,4 @@
-package com.angrycoding.carlauncher;
+package com.angrycoding.splinter;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.AccessibilityServiceInfo;
@@ -11,16 +11,15 @@ import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.os.IBinder;
 import android.support.v4.content.LocalBroadcastManager;
-import android.util.Log;
 import android.view.Display;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.angrycoding.carlauncher.arduino.Arduino;
-import com.angrycoding.carlauncher.arduino.ArduinoListener;
-import com.angrycoding.carlauncher.webview.WebView;
+import com.angrycoding.splinter.arduino.Arduino;
+import com.angrycoding.splinter.arduino.ArduinoListener;
+import com.angrycoding.splinter.webview.WebView;
 
 import java.lang.reflect.Method;
 

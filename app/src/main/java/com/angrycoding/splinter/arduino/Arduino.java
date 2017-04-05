@@ -1,4 +1,4 @@
-package com.angrycoding.carlauncher.arduino;
+package com.angrycoding.splinter.arduino;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -10,7 +10,7 @@ import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbManager;
 import android.widget.Toast;
 
-import com.angrycoding.carlauncher.MyApplication;
+import com.angrycoding.splinter.MyApplication;
 import com.felhr.usbserial.UsbSerialDevice;
 import com.felhr.usbserial.UsbSerialInterface;
 

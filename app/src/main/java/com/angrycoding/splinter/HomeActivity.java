@@ -1,12 +1,12 @@
-package com.angrycoding.carlauncher;
+package com.angrycoding.splinter;
 
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 
-import com.angrycoding.carlauncher.arduino.Arduino;
-import com.angrycoding.carlauncher.arduino.ArduinoListener;
-import com.angrycoding.carlauncher.webview.WebView;
+import com.angrycoding.splinter.arduino.Arduino;
+import com.angrycoding.splinter.arduino.ArduinoListener;
+import com.angrycoding.splinter.webview.WebView;
 
 
 public class HomeActivity extends Activity {

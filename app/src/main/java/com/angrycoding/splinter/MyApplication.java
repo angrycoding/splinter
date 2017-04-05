@@ -1,4 +1,4 @@
-package com.angrycoding.carlauncher;
+package com.angrycoding.splinter;
 
 import android.app.Application;
 import android.content.Context;

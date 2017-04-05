@@ -1,7 +1,6 @@
-package com.angrycoding.carlauncher.webview;
+package com.angrycoding.splinter.webview;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
@@ -12,7 +11,6 @@ import android.util.DisplayMetrics;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
-import android.widget.Toast;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -1,11 +1,8 @@
-package com.angrycoding.carlauncher.webview;
+package com.angrycoding.splinter.webview;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.View;
 import android.webkit.WebSettings;
-
-import com.angrycoding.carlauncher.R;
 
 public class WebView extends android.webkit.WebView {
 

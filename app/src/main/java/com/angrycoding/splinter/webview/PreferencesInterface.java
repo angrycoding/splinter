@@ -1,29 +1,17 @@
-package com.angrycoding.carlauncher.webview;
+package com.angrycoding.splinter.webview;
 
 import android.app.PendingIntent;
-import android.app.TaskStackBuilder;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
-import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
-import android.support.v4.content.LocalBroadcastManager;
-import android.util.Base64;
 import android.util.Log;
 import android.webkit.JavascriptInterface;
 
-import com.angrycoding.carlauncher.SensorSettings;
+import com.angrycoding.splinter.SensorSettings;
 
-import java.io.ByteArrayOutputStream;
 import java.util.List;
 
 public class PreferencesInterface {
