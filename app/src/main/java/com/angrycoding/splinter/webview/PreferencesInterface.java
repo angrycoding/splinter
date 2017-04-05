@@ -88,10 +88,11 @@ public class PreferencesInterface {
 
         String out = "[";
 
-        out += "{\"label\": \"BLABLA\", \"name\": \"com.angrycoding.carlauncher\", \"icon\": \"icon:///com.angrycoding.carlauncher\"},";
+//        out += "{\"label\": \"BLABLA\", \"name\": \"com.angrycoding.carlauncher\", \"icon\": \"icon:///com.angrycoding.carlauncher\"},";
 
         for (int c = 0; c < pkgAppsList.size(); c++) try {
             String pkgName = pkgAppsList.get(c).activityInfo.packageName;
+            Log.v("V", pkgName);
             String pkgIcon = "icon:///" + pkgName;
             String label = pkgAppsList.get(c).activityInfo.loadLabel(pm).toString();
 //            String pkgIcon = encodeIcon(pm.getApplicationIcon(pkgName));
@@ -99,7 +100,7 @@ public class PreferencesInterface {
         }
 
         catch (Exception e) {
-
+            e.printStackTrace();
         }
 
 

@@ -129,7 +129,9 @@
 			var layerId = 0;
 
 			while (apps.length) {
-				var app = apps.shift();
+				var app = apps.pop();
+
+				console.dir(JSON.stringify(app));
 
 				target.append(`
 					<div style="float: left; width: 25%; height: 33.333%; position: relative;">
