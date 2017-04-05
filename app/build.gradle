@@ -22,8 +22,8 @@ android {
 }
 
 dependencies {
+    compile 'com.github.felHR85:UsbSerial:4.5'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.3.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile project(':usbserial-release')
 }
