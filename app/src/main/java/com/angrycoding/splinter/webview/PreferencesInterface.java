@@ -12,6 +12,10 @@ import android.webkit.JavascriptInterface;
 
 import com.angrycoding.splinter.SensorSettings;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.List;
 
 public class PreferencesInterface {
@@ -22,6 +26,55 @@ public class PreferencesInterface {
     public PreferencesInterface(Context context) {
         this.context = context;
         preferences = PreferenceManager.getDefaultSharedPreferences(context);
+    }
+
+    @JavascriptInterface
+    public String getSensors() throws JSONException {
+        JSONArray result = new JSONArray();
+
+        JSONObject x = new JSONObject();
+        x.put("type", "1");
+        x.put("label", "Внешняя температура");
+        result.put(x);
+
+        x = new JSONObject();
+        x.put("type", "2");
+        x.put("label", "Запас топлива в литрах");
+        result.put(x);
+
+        x = new JSONObject();
+        x.put("type", "3");
+        x.put("label", "Средний расход");
+        result.put(x);
+
+        x = new JSONObject();
+        x.put("type", "4");
+        x.put("label", "Средняя скорость");
+        result.put(x);
+
+        x = new JSONObject();
+        x.put("type", "5");
+        x.put("label", "Температура ОЖ");
+        result.put(x);
+
+        x = new JSONObject();
+        x.put("type", "6");
+        x.put("label", "Пробег за поездку");
+        result.put(x);
+
+        x = new JSONObject();
+        x.put("type", "7");
+        x.put("label", "Пробег с замены масла");
+        result.put(x);
+
+        x = new JSONObject();
+        x.put("type", "0");
+        x.put("label", "Средняя скорость");
+        result.put(x);
+
+
+
+        return result.toString();
     }
 
     @JavascriptInterface

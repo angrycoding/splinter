@@ -7,37 +7,37 @@
 	</head>
 	<body>
 
-		<div>
+		<div data-type="1">
 			<span>+10 &#8451;</span>
 			<label>Внешняя температура</label>
 		</div>
 
-		<div>
+		<div data-type="2">
 			<span>32 литра</span>
 			<label>Запас топлива в литрах</label>
 		</div>
 
-		<div>
+		<div data-type="3">
 			<span>13 литров</span>
 			<label>Средний расход (л/100км)</label>
 		</div>
 
-		<div>
+		<div data-type="4">
 			<span>42 км/ч</span>
 			<label>Средняя скорость</label>
 		</div>
 
-		<div>
+		<div data-type="5">
 			<span>46 &#8451;</span>
 			<label>Температура ОЖ</label>
 		</div>
 
-		<div>
+		<div data-type="6">
 			<span>472 км</span>
 			<label>Пробег за поездку</label>
 		</div>
 
-		<div>
+		<div data-type="7">
 			<span>120 км</span>
 			<label>Пробег с замены масла</label>
 		</div>
@@ -49,7 +49,7 @@
 			$(document).on('touchstart', 'div', function(event) {
 				$('.pressed').removeClass('pressed');
 				$(this).addClass('pressed');
-				preferences.setSensorType('statusBar', $('label', this).html());
+				preferences.setSensorType('statusBar', $(this).data('type'));
 			});
 
 			$(document).on('DONE_EDIT', function() {
